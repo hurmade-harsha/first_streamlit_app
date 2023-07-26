@@ -74,6 +74,7 @@ fruits_to_add = ["jackfruit", "papaya", "guava", "kiwi"]
 for fruit in fruits_to_add:
     insert_row_snowflake(fruit)
    
+streamlit.stop()
 
 # add button to load the fruit list
 streamlit.header("View Our Fruit List- Add Your Favorites!")
